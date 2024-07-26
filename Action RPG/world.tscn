@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://cdfyxuar6pakm"]
+
+[ext_resource type="Texture2D" uid="uid://c8udbrd1h5w6u" path="res://World/Bush.png" id="1_1meum"]
+
+[node name="World" type="Node2D"]
+
+[node name="Bush" type="Sprite2D" parent="."]
+position = Vector2(63, 69)
+texture = ExtResource("1_1meum")
+
+[node name="Player" type="CharacterBody2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Player"]
