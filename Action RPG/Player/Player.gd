@@ -1,7 +1,9 @@
 extends CharacterBody2D
 
 
-#const SPEED = 300.0
+const MAX_SPEED = 200.0  # 最大速度
+const ACCELERATION = 50  # 加速度
+const FRICTION = 400  # 摩擦力
 #const JUMP_VELOCITY = -400.0
 #var velocit = Vector2.ZERO
 # Get the gravity from the project settings to be synced with RigidBody nodes.
@@ -11,11 +13,17 @@ func _physics_process(delta):
 	var input_vector = Vector2.ZERO
 	input_vector.x = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left")
 	input_vector.y = Input.get_action_strength("ui_down") - Input.get_action_strength("ui_up")
+	input_vector = input_vector.normalized()
 	
 	if input_vector != Vector2.ZERO:
-		velocity = input_vector
+		# 如果想实现角色越走越快，可以使用如下的方式，加速
+		velocity += input_vector * ACCELERATION * delta
+		# velocity = input_vector * MAX_SPEED
+		# 4.x clamp 变为 limit_lenght
+		velocity = velocity.limit_length(MAX_SPEED * delta)
 	else:
-		velocity = Vector2.ZERO
+		# 希望角色在停止按键时会滑行一段距离
+		velocity = velocity.move_toward(Vector2.ZERO, FRICTION * delta)
 	move_and_collide(velocity)
 
 # 基础的人物移动	
