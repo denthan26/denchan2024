@@ -1,21 +1,18 @@
-[gd_scene load_steps=4 format=3 uid="uid://cdfyxuar6pakm"]
+[gd_scene load_steps=3 format=3 uid="uid://cdfyxuar6pakm"]
 
-[ext_resource type="Texture2D" uid="uid://c8udbrd1h5w6u" path="res://World/Bush.png" id="1_1meum"]
-[ext_resource type="Texture2D" uid="uid://dqypvgwyjhefi" path="res://Player/Player.png" id="2_67mkf"]
-[ext_resource type="Script" path="res://Player/Player.gd" id="2_v7p1m"]
+[ext_resource type="PackedScene" uid="uid://bbgyx2mgipwwl" path="res://World/bush.tscn" id="2_fh086"]
+[ext_resource type="PackedScene" uid="uid://cwwj28pa4vluq" path="res://Player/player.tscn" id="2_uitrd"]
 
 [node name="World" type="Node2D"]
 
-[node name="Bush" type="Sprite2D" parent="."]
-position = Vector2(63, 69)
-texture = ExtResource("1_1meum")
+[node name="Player" parent="." instance=ExtResource("2_uitrd")]
+position = Vector2(112, 72)
 
-[node name="Player" type="CharacterBody2D" parent="."]
-position = Vector2(100, 30)
-script = ExtResource("2_v7p1m")
-metadata/_edit_group_ = true
+[node name="Bush" parent="." instance=ExtResource("2_fh086")]
+position = Vector2(72, 96)
 
-[node name="Sprite2D" type="Sprite2D" parent="Player"]
-position = Vector2(0, 1)
-texture = ExtResource("2_67mkf")
-hframes = 60
+[node name="Bush2" parent="." instance=ExtResource("2_fh086")]
+position = Vector2(104, 96)
+
+[node name="Bush3" parent="." instance=ExtResource("2_fh086")]
+position = Vector2(136, 96)
