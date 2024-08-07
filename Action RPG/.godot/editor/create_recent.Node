@@ -1,5 +1,10 @@
-CollisionShape2D
+TileMap
+TextureRect
+Node2D
 Sprite2D
+AnimationTree
+AnimationPlayer
+CollisionShape2D
 StaticBody2D
 CollisionPolygon2D
 CharacterBody2D
