@@ -1,4 +1,5 @@
-res://Player/player.tscn
+res://test/基础脚本测试.tscn
+res://test/test.gd
 res://world.tscn
+res://Player/player.tscn
 res://World/bush.tscn
-res://Player/Player.gd
