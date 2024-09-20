@@ -1,5 +1,2 @@
-res://test/基础脚本测试.tscn
-res://test/test.gd
-res://world.tscn
-res://Player/player.tscn
-res://World/bush.tscn
+res://map/node_2d.tscn
+res://map/play.tscn

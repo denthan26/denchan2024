@@ -1,10 +1,12 @@
+NavigationAgent2D
+CollisionShape2D
+CharacterBody2D
+NavigationRegion2D
 Sprite2D
 TileMap
 TextureRect
 Node2D
 AnimationTree
 AnimationPlayer
-CollisionShape2D
 StaticBody2D
 CollisionPolygon2D
-CharacterBody2D

@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1722996203
+::res://::1725024512
 icon.svg::CompressedTexture2D::3560153939936037004::1721975887::1721975894::1::::<><>::
-world.tscn::PackedScene::4995229119438227304::1722233341::0::1::::<><>::uid://qstje721m4ys::::res://World/GrassBackground.png<>uid://bbgyx2mgipwwl::::res://World/bush.tscn<>uid://ut5vqjlh3i0e::::res://World/DirtTileset.png<>uid://cwwj28pa4vluq::::res://Player/player.tscn
+world.tscn::PackedScene::4995229119438227304::1722996586::0::1::::<><>::uid://qstje721m4ys::::res://World/GrassBackground.png<>uid://bbgyx2mgipwwl::::res://World/bush.tscn<>uid://ut5vqjlh3i0e::::res://World/DirtTileset.png<>uid://cwwj28pa4vluq::::res://Player/player.tscn
 ::res://Effects/::1721976065
 EnemyDeathEffect.png::CompressedTexture2D::7954369007209888163::1577937936::1721976065::1::::<><>::
 GrassEffect.png::CompressedTexture2D::3443604662728217978::1577937936::1721976065::1::::<><>::
@@ -9,6 +9,10 @@ HitEffect.png::CompressedTexture2D::3781348128501253547::1577937936::1721976065:
 ::res://Enemies/::1721976065
 Bat.png::CompressedTexture2D::6311898222750343916::1577937936::1721976065::1::::<><>::
 ::res://Hurtboxes + Hitboxes/::1583824800
+::res://map/::1725025438
+01efde554be21b000001bf72c4d477.jpg::CompressedTexture2D::941548909550354630::1725025365::1725025367::1::::<><>::
+node_2d.tscn::PackedScene::2952923051377482013::1725025438::0::1::::<><>::uid://nodf470dmjwg::::res://map/01efde554be21b000001bf72c4d477.jpg<>uid://bqythk3av0njo::::res://icon.svg
+worldmap.jpg::::-1::1725024683::0::0::::<><>::
 ::res://Music and Sounds/::1721976065
 EnemyDie.wav::AudioStreamWAV::1228685405277441359::1577937936::1721976065::1::::<><>::
 Evade.wav::AudioStreamWAV::8808172099892703217::1577937936::1721976065::1::::<><>::
@@ -20,20 +24,24 @@ Music.mp3::AudioStreamMP3::4819745333473800091::1577937936::1721976065::1::::<><
 Pause.wav::AudioStreamWAV::815717221977259454::1577937936::1721976065::1::::<><>::
 Swipe.wav::AudioStreamWAV::9182896137584021151::1577937936::1721976065::1::::<><>::
 Unpause.wav::AudioStreamWAV::5552698840679271928::1577937936::1721976065::1::::<><>::
-::res://Player/::1722233341
-Player.gd::GDScript::-1::1722215198::0::1::::<>CharacterBody2D<>::
+::res://Player/::1724371837
+Player.gd::GDScript::-1::1724371837::0::1::::<>CharacterBody2D<>::
 Player.png::CompressedTexture2D::8332777222177310858::1583826930::1721976065::1::::<><>::
-player.tscn::PackedScene::6363008663864773532::1722233341::0::1::::<><>::res://Player/Player.gd<>uid://dqypvgwyjhefi::::res://Player/Player.png
+player.tscn::PackedScene::6363008663864773532::1722996586::0::1::::<><>::res://Player/Player.gd<>uid://dqypvgwyjhefi::::res://Player/Player.png
 ::res://Shadows/::1721976065
 LargeShadow.png::CompressedTexture2D::2016222067203254130::1583825568::1721976065::1::::<><>::
 MediumShadow.png::CompressedTexture2D::984752587339567017::1577937936::1721976065::1::::<><>::
 SmallShadow.png::CompressedTexture2D::6892211724021122156::1577937938::1721976065::1::::<><>::
+::res://test/::1724371974
+play.tscn::PackedScene::7543626854705485831::1724371974::0::1::::<><>::uid://bqythk3av0njo::::res://icon.svg
+test.gd::GDScript::-1::1722996585::0::1::::<>Sprite2D<>::
+基础脚本测试.tscn::PackedScene::456532909862192166::1722996587::0::1::::<><>::res://test/test.gd
 ::res://UI/::1721976065
 HeartUIEmpty.png::CompressedTexture2D::5099363723523488532::1582857528::1721976065::1::::<><>::
 HeartUIFull.png::CompressedTexture2D::6523210392832315597::1582857512::1721976065::1::::<><>::
-::res://World/::1722233341
+::res://World/::1722996586
 Bush.png::CompressedTexture2D::7130545598017917290::1577937938::1721976065::1::::<><>::
-bush.tscn::PackedScene::2470495511893725703::1722233341::0::1::::<><>::uid://c8udbrd1h5w6u::::res://World/Bush.png
+bush.tscn::PackedScene::2470495511893725703::1722996586::0::1::::<><>::uid://c8udbrd1h5w6u::::res://World/Bush.png
 CliffTileset.png::CompressedTexture2D::7518574064871955603::1582622680::1721976065::1::::<><>::
 DirtTileset.png::CompressedTexture2D::1444859916329876838::1582684618::1721976065::1::::<><>::
 Grass.png::CompressedTexture2D::3163993564516669111::1577937938::1721976065::1::::<><>::

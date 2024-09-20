@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://dfqgoxtuccaax"]
+
+[ext_resource type="Texture2D" uid="uid://bqythk3av0njo" path="res://icon.svg" id="1_hrcmv"]
+
+[node name="play" type="CharacterBody2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(120, 80)
+scale = Vector2(0.3, 0.3)
+texture = ExtResource("1_hrcmv")

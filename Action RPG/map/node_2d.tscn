@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://bicohgges55tp"]
+
+[ext_resource type="Texture2D" uid="uid://nodf470dmjwg" path="res://map/01efde554be21b000001bf72c4d477.jpg" id="1_g2jtl"]
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_mu8gj"]
+outlines = Array[PackedVector2Array]([PackedVector2Array(64, 176, 72, 184, 112, 168, 136, 168, 152, 176, 168, 168, 192, 160, 200, 168, 200, 176, 216, 176, 232, 184, 256, 184, 280, 184, 280, 176, 272, 168, 256, 168, 240, 168, 224, 160, 232, 152, 240, 144, 240, 136, 248, 136, 280, 152, 304, 144, 304, 128, 272, 120, 248, 128, 208, 112, 184, 120, 200, 80, 200, 64, 184, 72, 152, 56, 136, 64, 160, 80, 176, 88, 184, 104, 168, 112, 168, 128, 128, 128, 120, 112, 128, 96, 128, 88, 104, 80, 72, 96, 80, 104, 96, 112, 104, 128, 96, 128, 80, 128, 80, 136, 104, 136, 104, 152)])
+source_geometry_group_name = &"navigation_polygon_source_group"
+
+[node name="world" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(164, 96)
+scale = Vector2(0.304688, 0.25)
+texture = ExtResource("1_g2jtl")
+
+[node name="NavigationRegion2D" type="NavigationRegion2D" parent="."]
+navigation_polygon = SubResource("NavigationPolygon_mu8gj")
