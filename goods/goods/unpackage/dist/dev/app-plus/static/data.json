@@ -1,0 +1,54 @@
+{
+	"柜台": [{
+			"goodid": 1,
+			"classify": 0,
+			"goodname": "smoke1",
+			"price": 5,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 2,
+			"classify": 0,
+			"goodname": "somke2",
+			"price": 10,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 7,
+			"classify": 0,
+			"goodname": "矿泉水",
+			"price": 1,
+			"Specification": "1盒"
+		}
+	],
+	"第一排左": [{
+			"goodid": 3,
+			"classify": 1,
+			"goodname": "牙膏",
+			"price": 5,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 4,
+			"classify": 1,
+			"goodname": "牙刷",
+			"price": 10,
+			"Specification": "1盒"
+		}
+	],
+	"第一排右": [{
+			"goodid": 5,
+			"classify": 2,
+			"goodname": "红烧牛肉面",
+			"price": 5,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 6,
+			"classify": 2,
+			"goodname": "火腿肠",
+			"price": 10,
+			"Specification": "1盒"
+		}
+	]
+}

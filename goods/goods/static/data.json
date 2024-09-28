@@ -1,0 +1,274 @@
+{
+	"柜台": [{
+			"goodid": 1,
+			"classify": 0,
+			"goodname": "smoke1",
+			"price": 5.0,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 2,
+			"classify": 0,
+			"goodname": "somke2",
+			"price": 10.0,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 3,
+			"classify": 0,
+			"goodname": "smoke2",
+			"price": 15.0,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 4,
+			"classify": 0,
+			"goodname": "somke3",
+			"price": 20.0,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 5,
+			"classify": 0,
+			"goodname": "smoke3",
+			"price": 25.0,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 6,
+			"classify": 0,
+			"goodname": "somke4",
+			"price": 30.0,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 7,
+			"classify": 0,
+			"goodname": "smoke4",
+			"price": 35.0,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 8,
+			"classify": 0,
+			"goodname": "somke5",
+			"price": 40.0,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 9,
+			"classify": 0,
+			"goodname": "smoke5",
+			"price": 45.0,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 10,
+			"classify": 0,
+			"goodname": "somke6",
+			"price": 50.0,
+			"Specification": "1盒"
+		}
+	],
+	"第一排左": [{
+			"goodid": 11,
+			"classify": 1,
+			"goodname": "牙膏1",
+			"price": 5.0,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 12,
+			"classify": 1,
+			"goodname": "牙膏2",
+			"price": 10.0,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 13,
+			"classify": 1,
+			"goodname": "牙膏3",
+			"price": 15.0,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 14,
+			"classify": 1,
+			"goodname": "牙刷1",
+			"price": 2.0,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 15,
+			"classify": 1,
+			"goodname": "牙刷2",
+			"price": 3.0,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 16,
+			"classify": 1,
+			"goodname": "牙刷3",
+			"price": 4.0,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 17,
+			"classify": 1,
+			"goodname": "纸杯",
+			"price": 6.0,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 18,
+			"classify": 1,
+			"goodname": "塑料杯",
+			"price": 6.0,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 19,
+			"classify": 1,
+			"goodname": "肥皂1",
+			"price": 5.0,
+			"Specification": "1盒"
+		},
+		{
+			"goodid": 20,
+			"classify": 1,
+			"goodname": "肥皂2",
+			"price": 5.0,
+			"Specification": "1盒"
+		}
+	],
+	"第一排右": [{
+			"goodid": 21,
+			"classify": 2,
+			"goodname": "可乐",
+			"price": 3.0,
+			"Specification": "1瓶"
+		},
+		{
+			"goodid": 22,
+			"classify": 2,
+			"goodname": "雪碧",
+			"price": 3.0,
+			"Specification": "1瓶"
+		},
+		{
+			"goodid": 23,
+			"classify": 2,
+			"goodname": "冰红茶",
+			"price": 4.0,
+			"Specification": "1瓶"
+		},
+		{
+			"goodid": 24,
+			"classify": 2,
+			"goodname": "冰糖雪梨",
+			"price": 4.0,
+			"Specification": "1瓶"
+		},
+		{
+			"goodid": 25,
+			"classify": 2,
+			"goodname": "芬达",
+			"price": 3.0,
+			"Specification": "1瓶"
+		},
+		{
+			"goodid": 26,
+			"classify": 2,
+			"goodname": "脉动",
+			"price": 5.0,
+			"Specification": "1瓶"
+		},
+		{
+			"goodid": 27,
+			"classify": 2,
+			"goodname": "红牛",
+			"price": 5.5,
+			"Specification": "1瓶"
+		}
+	],
+	"第二排左": [{
+			"goodid": 28,
+			"classify": 3,
+			"goodname": "红烧牛肉面",
+			"price": 2.8,
+			"Specification": "1袋"
+		},
+		{
+			"goodid": 29,
+			"classify": 3,
+			"goodname": "红烧牛肉面",
+			"price": 4.5,
+			"Specification": "1桶"
+		},
+		{
+			"goodid": 30,
+			"classify": 3,
+			"goodname": "鸡肉肠",
+			"price": 1.0,
+			"Specification": "1根"
+		},
+		{
+			"goodid": 31,
+			"classify": 3,
+			"goodname": "玉米肠",
+			"price": 1.0,
+			"Specification": "1根"
+		}
+	],
+	"第二排右": [{
+			"goodid": 32,
+			"classify": 4,
+			"goodname": "辣条",
+			"price": 0.5,
+			"Specification": "1袋"
+		},
+		{
+			"goodid": 33,
+			"classify": 4,
+			"goodname": "薯片",
+			"price": 4.0,
+			"Specification": "1包"
+		},
+		{
+			"goodid": 34,
+			"classify": 4,
+			"goodname": "饼干",
+			"price": 4.0,
+			"Specification": "1袋"
+		},
+		{
+			"goodid": 35,
+			"classify": 4,
+			"goodname": "红枣",
+			"price": 4.0,
+			"Specification": "1袋"
+		},
+		{
+			"goodid": 36,
+			"classify": 4,
+			"goodname": "瓜子",
+			"price": 4.0,
+			"Specification": "1袋"
+		}
+	],
+	"外部走廊": [{
+			"goodid": 37,
+			"classify": 11,
+			"goodname": "水杯",
+			"price": 5.0,
+			"Specification": "1个"
+		},
+		{
+			"goodid": 28,
+			"classify": 11,
+			"goodname": "插排",
+			"price": 18.0,
+			"Specification": "1个"
+		}
+	]
+}

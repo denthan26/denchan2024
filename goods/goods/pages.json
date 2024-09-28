@@ -1,30 +1,44 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages 
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "查看商品"
+				"navigationBarTitleText": "首页 - 期待美好的一天"
 			}
 		},
 		{
 			"path": "pages/search/search",
 			"style": {
-				"navigationBarTitleText": "快速搜索",
+				"navigationBarTitleText": "搜索 - 发现明日精彩",
 				"enablePullDownRefresh": false
 			}
 		},
 		{
 			"path": "pages/last/last",
 			"style": {
-				"navigationBarTitleText": "最近查看",
+				"navigationBarTitleText": "最近 - 回顾昨日，展望明天",
 				"enablePullDownRefresh": false
 			}
 		},
 		{
-			"path" : "pages/info/info",
+			"path": "pages/info/info",
+			"style": {
+				"navigationBarTitleText": "信息 - 连接未来",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/result/result",
+			"style": {
+				"navigationBarTitleText": "结果 - 明天的答案",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path" : "pages/info2/info2",
 			"style" : 
 			{
-				"navigationBarTitleText" : "详细信息",
+				"navigationBarTitleText" : "",
 				"enablePullDownRefresh" : false
 			}
 		}
