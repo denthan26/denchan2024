@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bulma/css/bulma.min.css">
+</head>
+
+<body>
+    <a class="button is-primary is-large" href="demo2.html">login</a>
+
+    <button class=" button is-loading is-large is-link">5</button>
+    <script>
+        const url = 'http://127.0.0.1:5000/api'; // 确保 URL 是正确的
+
+        fetch(url)
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json(); // 解析 JSON 数据
+            })
+            .then(data => {
+                console.log(data); // 打印 JSON 数据
+                alert("ok"); // 弹出提示
+            })
+            .catch(error => {
+                console.error('There has been a problem with your fetch operation:', error);
+            });
+
+    </script>
+</body>
+
+</html>

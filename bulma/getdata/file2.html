@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .container {
+            text-align: center;
+            width: 100%;
+        }
+
+        .head {
+            font-weight: bold;
+            margin-bottom: 20px;
+            padding-top: 30px;
+            font-size: larger;
+        }
+
+        .cols {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+        }
+
+        .col {
+            width: 30%;
+            box-sizing: border-box;
+            padding: 10px;
+        }
+
+        .title {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .icon {
+            font-size: 24px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .imgList {
+            margin-top: 10px;
+        }
+
+        .item {
+            margin-bottom: 10px;
+            display: none;
+            /* Initially hide all items */
+        }
+
+        img {
+            width: 100%;
+            max-width: 200px;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="head">如何招聘电影演员</div>
+        <div class="cols">
+            <div id="ajax" class="col">
+                <div class="title">ajax</div>
+                <div class="icon" onclick="showImage(this, 'ajax')">⬇️</div>
+                <div class="imgList">
+                </div>
+            </div>
+            <div id="fetch" class="col">
+                <div class="title">fetch</div>
+                <div class="icon" onclick="showImage(this, 'fetch')">⬇️</div>
+                <div class="imgList">
+                </div>
+            </div>
+            <div id="axios" class="col">
+                <div class="title">axios</div>
+                <div class="icon" onclick="showImage(this, 'axios')">⬇️</div>
+                <div class="imgList">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let imageCount = { ajax: 1, fetch: 1, axios: 1 };
+
+        function showImage(iconElement, type) {
+            const imgList = iconElement.closest('.col').querySelector('.imgList');
+            const currentImageCount = imageCount[type];
+
+            const newItem = document.createElement('div');
+            newItem.className = 'item';
+
+            const newImage = document.createElement('img');
+            newImage.src = `./imgs/${type}/${currentImageCount}.jpg`;
+            newImage.alt = '';
+
+            const newIcon = document.createElement('div');
+            newIcon.className = 'icon';
+            newIcon.innerHTML = '⬇️';
+            newIcon.onclick = function () { showImage(newIcon, type); };
+
+            newItem.appendChild(newImage);
+            newItem.appendChild(newIcon);
+
+            if (imgList) {
+                imgList.appendChild(newItem);
+                imageCount[type]++;
+
+                // Show the new item
+                newItem.style.display = 'block';
+            } else {
+                console.error('imgList not found');
+            }
+        }
+    </script>
+</body>
+
+</html>
